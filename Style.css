@@ -1,0 +1,43 @@
+/*
+Author: Pronoxin
+Filename: Style.CSS
+Description: Styling for the PHP calculator
+Creation: 15/12/2016
+*/
+
+html {
+	height: 100%;
+	background: black;
+	background: radial-gradient(circle, #99cc99 20%, #99cccc);
+	background-size: cover;
+}
+
+#calculator{
+	text-align: center;
+	width: 325px;
+	height: auto;
+	margin: 100px auto;
+	padding: 20px 20px 9px;
+	background: #9dd2ea;
+	background: linear-gradient(#9dd2ea, #8bceec);
+	border-radius: 3px;
+	box-shadow: 0px 4px #009de4, 0px 10px 15px rgba(0, 0, 0, 0.2);
+	font: bold 14px Arial, sans-serif;
+}
+
+#calculate{
+	background: #f1ff92;
+	box-shadow: 0px 2px #717a33;
+	margin-top: 10px;
+	cursor: pointer;
+	border-radius: 5px;
+	font-size: 18px;
+	width: 50%;
+	
+}
+
+#calculate:hover{
+	color: #ffffff;
+	background: #abb850;
+}
+	

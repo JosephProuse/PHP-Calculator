@@ -1,16 +1,28 @@
+<!DOCTYPE html>
+
 <!-- 
-Author: 		Pronoxin
-Filename:		Calculator.php
-Description:	A simple PHP calculator
-Creation:		14/12/2016
+Author: Pronoxin
+Filename: Calculator.php
+Description: A simple PHP calculator
+Creation: 14/12/2016
+
+Updated: 15/12/2016
+Reason: Linked the file to the CSS
 -->
 
-<form method="POST" action="<?php echo $_SERVER['PHP_SELF'];?>">
-Number 1:<input name="Number1" type="text"><br>
-Operator, use +,-,/ or *:<input name="Operator" type="text" size=1><br>
-Number 2: <input name="Number2" type="text"><br>
-<input name="send" type="submit" value="Send!">
-</form>
+<head>
+	<meta charset="utf-8">
+	<link href="style.css" rel="stylesheet">
+</head>
+
+<div id="calculator">
+	<form method="POST" action="<?php echo $_SERVER['PHP_SELF'];?>">
+	Number 1:<input name="Number1" type="text"><br>
+	Operator, use +,-,/ or *:<input name="Operator" type="text" size=1><br>
+	Number 2: <input name="Number2" type="text"><br>
+	<input id="calculate" name="send" type="submit" value="Calculate">
+	</form>
+</div>
 
 <?php
 // delcares the function calculator
