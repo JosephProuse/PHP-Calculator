@@ -6,8 +6,8 @@ Filename: Calculator.php
 Description: A simple PHP calculator
 Creation: 14/12/2016
 
-Updated: 15/12/2016
-Reason: Linked the file to the CSS
+Updated: 16/12/2016 14:09
+Reason: Changed div to body to make result appear in the calculator
 -->
 
 <head>
@@ -15,14 +15,14 @@ Reason: Linked the file to the CSS
 	<link href="style.css" rel="stylesheet">
 </head>
 
-<div id="calculator">
+<body id="calculator">
 	<form method="POST" action="<?php echo $_SERVER['PHP_SELF'];?>">
 	Number 1:<input name="Number1" type="text"><br>
 	Operator, use +,-,/ or *:<input name="Operator" type="text" size=1><br>
 	Number 2: <input name="Number2" type="text"><br>
 	<input id="calculate" name="send" type="submit" value="Calculate">
 	</form>
-</div>
+</body>
 
 <?php
 // delcares the function calculator
@@ -55,7 +55,7 @@ function calculator(){
 	}
 	if($operator=="*"){
 		for($x=1; $x<=$second; $x++){
-			echo " $first x $x = " .$x * $first." <br>";
+			echo " $first x $x = " .$first * $x." <br>";
 		}
 	}
 	if($operator!="+" && $operator!="-" && $operator!="*" && $operator!="/"){

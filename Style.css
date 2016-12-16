@@ -3,6 +3,9 @@ Author: Pronoxin
 Filename: Style.CSS
 Description: Styling for the PHP calculator
 Creation: 15/12/2016
+
+Updated: 16/12/2016 14:10
+Reason: Added margin-bottom to calculate ID
 */
 
 html {
@@ -33,6 +36,7 @@ html {
 	border-radius: 5px;
 	font-size: 18px;
 	width: 50%;
+	margin-bottom: 10px;
 	
 }
 
