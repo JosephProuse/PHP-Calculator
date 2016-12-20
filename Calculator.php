@@ -6,8 +6,8 @@ Filename: Calculator.php
 Description: A simple PHP calculator
 Creation: 14/12/2016
 
-Updated: 16/12/2016 14:09
-Reason: Changed div to body to make result appear in the calculator
+Updated: 20/12/2016 14:59
+Reason: Added in extra echo to make sure that the answer is always displayed even if the number is so big that the times table isn't fully executed due to the 30 second execution limit
 -->
 
 <head>
@@ -54,6 +54,7 @@ function calculator(){
 		echo " $first / $second = " .$first / $second. " <br>";
 	}
 	if($operator=="*"){
+		echo $first * $second , "<br>";
 		for($x=1; $x<=$second; $x++){
 			echo " $first x $x = " .$first * $x." <br>";
 		}
