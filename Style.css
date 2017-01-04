@@ -15,6 +15,28 @@ html {
 	background-size: cover;
 }
 
+.formatting{
+	background: #f1ff92;
+	box-shadow: 0px 2px #717a33;
+	cursor: pointer;
+	border-radius: 5px;
+	float: right;
+	margin-left: 55%;
+	margin-bottom: 10px;
+	font-size:
+}
+
+.calculate{
+	background: #f1ff92;
+	box-shadow: 0px 2px #717a33;
+	margin-top: 10px;
+	cursor: pointer;
+	border-radius: 5px;
+	font-size: 18px;
+	width: 50%;
+	margin-bottom: 10px;
+}
+
 #calculator{
 	text-align: center;
 	width: 325px;
@@ -28,20 +50,29 @@ html {
 	font: bold 14px Arial, sans-serif;
 }
 
-#calculate{
-	background: #f1ff92;
-	box-shadow: 0px 2px #717a33;
-	margin-top: 10px;
-	cursor: pointer;
-	border-radius: 5px;
-	font-size: 18px;
-	width: 50%;
-	margin-bottom: 10px;
-	
-}
-
 #calculate:hover{
 	color: #ffffff;
 	background: #abb850;
 }
+
+#keypad {margin:auto; margin-top:20px;}
+
+#keypad tr td {
+	vertical-align:middle; 
+	text-align:center; 
+	border:1px solid #000000; 
+	font-size:18px; 
+	font-weight:bold; 
+	width:40px; 
+	height:30px; 
+	cursor:pointer; 
+	background-color:#666666; 
+	color:#CCCCCC;
+}
+	
+#keypad tr td:hover {
+	background-color:#999999; color:#FFFF00;
+}
+
+
 	
