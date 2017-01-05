@@ -50,7 +50,7 @@ html {
 	font: bold 14px Arial, sans-serif;
 }
 
-#calculate:hover{
+.calculate:hover{
 	color: #ffffff;
 	background: #abb850;
 }
