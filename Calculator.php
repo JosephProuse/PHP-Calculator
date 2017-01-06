@@ -130,7 +130,7 @@ function calculator(){
 	if($operator=="*"){
 		echo $first * $second , "<br>";
 		for($x=1; $x<=$second; $x++){
-			echo " $first x $x = " .$first * $x." <br>";
+			echo " $x x $first = " .$first * $x." <br>";
 		}
 	}
 }
