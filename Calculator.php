@@ -12,6 +12,9 @@ Reason: More keypad code
 	<meta charset="utf-8">
 	<link href="style.css" rel="stylesheet">
 	<script>
+	var number = "";
+	var operator = "";
+
 	function visability(x){
 		if (x==1){
 			document.getElementById("text").style.display="none";
@@ -27,8 +30,9 @@ Reason: More keypad code
 		}	
 	}
 	
-	var number = "";
-	var operator = "";
+	/*
+	COMMENTED OUT AS IT BROKE THE FORMAT
+	
 	function addnumber(num){
 		number = number + num;
 		return number;
@@ -46,6 +50,7 @@ Reason: More keypad code
 		return number;
 		return operator;
 	}
+	*/
 	</script>
 </head>
 
