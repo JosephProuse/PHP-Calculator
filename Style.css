@@ -15,6 +15,10 @@ html {
 	background-size: cover;
 }
 
+.answer{
+	border: 1px;
+}
+
 .formatting{
 	background: #f1ff92;
 	box-shadow: 0px 2px #717a33;
@@ -37,6 +41,15 @@ html {
 	margin-bottom: 10px;
 }
 
+.calculate:hover{
+	color: #ffffff;
+	background: #abb850;
+}
+
+.out{
+	background-color:#000000
+}
+
 #calculator{
 	text-align: center;
 	width: 325px;
@@ -50,10 +63,6 @@ html {
 	font: bold 14px Arial, sans-serif;
 }
 
-.calculate:hover{
-	color: #ffffff;
-	background: #abb850;
-}
 
 #keypad {margin:auto; margin-top:20px;}
 
@@ -68,10 +77,33 @@ html {
 	cursor:pointer; 
 	background-color:#666666; 
 	color:#CCCCCC;
+	box-shadow: 2px 2px #999999;
 }
 	
 #keypad tr td:hover {
 	background-color:#999999; color:#FFFF00;
+}
+
+.screen{
+    width: 217px;
+    margin-left: 54px;
+    margin-bottom: -20px;
+    margin-top: 30px;
+    height: 20px;
+    background-color: #003747;
+	color: white;
+	box-shadow: 2px 2px #026a81;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.redside{
+	background-color:#F2B830 !important;
+	box-shadow: 2px 2px #F39F4C !important;
+}
+
+.redside:hover{
+	background-color:#FFC02E !important;
 }
 
 
